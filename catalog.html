@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css" integrity="sha512-okkLcBJE+U19Dpd0QdHA1wn4YY6rW3CwaxeLJT3Jmj9ZcNSbln/VYw8UdqXRIwLX7J8PmtHs0I/FPAhozFvXKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__inner">
+          <a class="header__logo" href="#">
+            <img src="images/logo.svg" alt="">
+          </a>
+          <button class="header__catalog">
+            <span>Каталог</span>
+          </button>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item percent-item">
+                <a class="header__nav-link" href="#">Акции</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Эксклюзивные продукты</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Доставка и оплата</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">О компании</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__box">
+          <a class="header__item" href="#">
+            <div class="header__item-img">
+              <img src="images/icons/search.svg" alt="">
+            </div>
+            <div class="header__item-descr">
+              Поиск
+            </div>
+          </a>
+          <a class="header__item heart-item" href="#">
+            <div class="header__item-img">
+              <span class="heart-item__box">1</span>
+              <img src="images/icons/heart.svg" alt="">
+            </div>
+            <div class="header__item-descr">
+              Избранное
+            </div>
+          </a>
+          <a class="header__item" href="#">
+            <div class="header__item-img">
+              <img src="images/icons/user.svg" alt="">
+            </div>
+            <div class="header__item-descr">
+              Кабинет
+            </div>
+          </a>
+          <a class="header__item cart-item" href="#">
+            <div class="header__item-img">
+              <span class="cart-item__box">6</span>
+              <img src="images/icons/cart.svg" alt="">
+            </div>
+            <div class="header__item-descr">
+              1 703,30 ₽
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="breadcrumbs">
+      <div class="container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Каталог товаров</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <span class="breadcrumbs__link">Эксклюзивные продукты</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="catalog">
+      <div class="container">
+        <h1 class="catalog__title title">
+          Эксклюзивные продукты
+        </h1>
+        <div class="catalog__inner">
+          <div class="catalog__sidebar">
+            <a class="catalog__sidebar-link" href="#">
+              Каталог товаров
+            </a>
+            <div class="catalog__sidebar-title">
+              Эксклюзивные продукты
+            </div>
+            <div class="catalog__products">
+              <div class="catalog__products-title">
+                Эксклюзивные продукты
+              </div>
+              <ul class="catalog__products-list">
+                <li class="catalog__products-item">
+                  <a class="catalog__products-link" href="#">Говядина бескостная</a>
+                </li>
+                <li class="catalog__products-item">
+                  <a class="catalog__products-link" href="#">Говядина на кости</a>
+                </li>
+                <li class="catalog__products-item">
+                  <a class="catalog__products-link" href="#">Полуфабрикаты из говядины</a>
+                </li>
+                <li class="catalog__products-item">
+                  <a class="catalog__products-link" href="#">Субпродукты говяжьи</a>
+                </li>
+                <li class="catalog__products-item">
+                  <a class="catalog__products-link" href="#">Фарши</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="catalog__list">
+            <a class="catalog__item" style="background-color: #8C3E37;" href="#">
+              <div class="catalog__item-title">
+                Говядина бескостная
+              </div>
+              <div class="catalog__item-link">
+                <img src="images/icons/catalog-item-arrow.svg" alt="">
+              </div>
+              <div class="catalog__item-imgbox">
+                <img src="images/content/catalog/item-1.png" alt="">
+              </div>
+            </a>
+            <a class="catalog__item" style="background-color: #9B3329;" href="#">
+              <div class="catalog__item-title">
+                Говядина на кости
+              </div>
+              <div class="catalog__item-link">
+                <img src="images/icons/catalog-item-arrow.svg" alt="">
+              </div>
+              <div class="catalog__item-imgbox">
+                <img src="images/content/catalog/item-2.png" alt="">
+              </div>
+            </a>
+            <a class="catalog__item" style="background-color: #722D27;" href="#">
+              <div class="catalog__item-title">
+                Полуфабрикаты
+                из говядины
+              </div>
+              <div class="catalog__item-link">
+                <img src="images/icons/catalog-item-arrow.svg" alt="">
+              </div>
+              <div class="catalog__item-imgbox">
+                <img src="images/content/catalog/item-3.png" alt="">
+              </div>
+            </a>
+            <a class="catalog__item" style="background-color: #5A392F;" href="#">
+              <div class="catalog__item-title">
+                Субпродукты говяжьи
+              </div>
+              <div class="catalog__item-link">
+                <img src="images/icons/catalog-item-arrow.svg" alt="">
+              </div>
+              <div class="catalog__item-imgbox">
+                <img src="images/content/catalog/item-4.png" alt="">
+              </div>
+            </a>
+            <a class="catalog__item" style="background-color: #AC4641;" href="#">
+              <div class="catalog__item-title">
+                Фарши
+              </div>
+              <div class="catalog__item-link">
+                <img src="images/icons/catalog-item-arrow.svg" alt="">
+              </div>
+              <div class="catalog__item-imgbox">
+                <img src="images/content/catalog/item-5.png" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product-article product-category">
+      <div class="container">
+        <div class="product-article__top">
+          <h2 class="product-article__title medium-title">
+            Товары из категории
+          </h2>
+        </div>
+        <div class="product-article__inner">
+          <div class="swiper swiper-product-article">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <span class="swiper-slide__favourites">
+                  <img src="images/icons/favourites.svg" alt="">
+                </span>
+                <div class="swiper-slide__imgbox">
+                  <div class="swiper swiperslide">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-1.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide__content">
+                  <div class="swiper-slide__title">
+                    Говядина Мякоть
+                  </div>
+                  <div class="swiper-slide__weight">
+                    ~1 кг
+                  </div>
+                  <div class="swiper-slide__availability">
+                    В наличии
+                  </div>
+                  <div class="swiper-slide__price">
+                    <span class="swiper-slide__price-old"></span>
+                    <span class="swiper-slide__price-new">451 ₽/кг</span>
+                  </div>
+                </div>
+                <button class="swiper-slide__add-cart">
+                  <img src="images/icons/add-cart.svg" alt="">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <span class="swiper-slide__favourites">
+                  <img src="images/icons/favourites.svg" alt="">
+                </span>
+                <div class="swiper-slide__imgbox">
+                  <div class="swiper swiperslide">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-2.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide__content">
+                  <div class="swiper-slide__title">
+                    Говядина Тазобедренный отруб
+                  </div>
+                  <div class="swiper-slide__weight">
+                    ~1,03 кг
+                  </div>
+                  <div class="swiper-slide__availability">
+                    В наличии
+                  </div>
+                  <div class="swiper-slide__price">
+                    <span class="swiper-slide__price-old"></span>
+                    <span class="swiper-slide__price-new">599 ₽/кг</span>
+                  </div>
+                </div>
+                <button class="swiper-slide__add-cart">
+                  <img src="images/icons/add-cart.svg" alt="">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <span class="swiper-slide__favourites">
+                  <img src="images/icons/favourites.svg" alt="">
+                </span>
+                <div class="swiper-slide__imgbox">
+                  <div class="swiper swiperslide">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-3.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-3.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide__content">
+                  <div class="swiper-slide__title">
+                    Седло баранье
+                  </div>
+                  <div class="swiper-slide__weight">
+                    ~0,9 кг
+                  </div>
+                  <div class="swiper-slide__availability">
+                    В наличии
+                  </div>
+                  <div class="swiper-slide__price">
+                    <span class="swiper-slide__price-old"></span>
+                    <span class="swiper-slide__price-new">560 ₽/кг</span>
+                  </div>
+                </div>
+                <button class="swiper-slide__add-cart">
+                  <img src="images/icons/add-cart.svg" alt="">
+                </button>
+              </div>
+              <div class="swiper-slide swiper-slide--few">
+                <span class="swiper-slide__favourites">
+                  <img src="images/icons/favourites.svg" alt="">
+                </span>
+                <span class="swiper-slide__stock">Акция</span>
+                <div class="swiper-slide__imgbox">
+                  <div class="swiper swiperslide">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-4.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-4.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide__content">
+                  <div class="swiper-slide__title">
+                    Бараний окорок в маринаде
+                  </div>
+                  <div class="swiper-slide__weight">
+                    ~2 кг
+                  </div>
+                  <div class="swiper-slide__availability">
+                    Менее 10 шт.
+                  </div>
+                  <div class="swiper-slide__price">
+                    <span class="swiper-slide__price-old"></span>
+                    <span class="swiper-slide__price-new">401 ₽/кг</span>
+                  </div>
+                </div>
+                <button class="swiper-slide__add-cart">
+                  <img src="images/icons/add-cart.svg" alt="">
+                </button>
+              </div>
+              <div class="swiper-slide swiper-slide--out-stock">
+                <span class="swiper-slide__favourites">
+                  <img src="images/icons/favourites.svg" alt="">
+                </span>
+                <span class="swiper-slide__stock">Акция</span>
+                <div class="swiper-slide__imgbox">
+                  <div class="swiper swiperslide">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-5.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-5.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide__content">
+                  <div class="swiper-slide__title">
+                    Баранья лопатка в пряных травах
+                  </div>
+                  <div class="swiper-slide__weight">
+                    ~1,5 кг
+                  </div>
+                  <div class="swiper-slide__availability">
+                    Нет в наличии
+                  </div>
+                  <div class="swiper-slide__price">
+                    <span class="swiper-slide__price-old"></span>
+                    <span class="swiper-slide__price-new">395 ₽/кг</span>
+                  </div>
+                </div>
+                <button class="swiper-slide__add-cart">
+                  <img src="images/icons/add-cart.svg" alt="">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <span class="swiper-slide__favourites">
+                  <img src="images/icons/favourites.svg" alt="">
+                </span>
+                <div class="swiper-slide__imgbox">
+                  <div class="swiper swiperslide">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-1.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide__content">
+                  <div class="swiper-slide__title">
+                    Говядина Мякоть
+                  </div>
+                  <div class="swiper-slide__weight">
+                    ~1 кг
+                  </div>
+                  <div class="swiper-slide__availability">
+                    В наличии
+                  </div>
+                  <div class="swiper-slide__price">
+                    <span class="swiper-slide__price-old"></span>
+                    <span class="swiper-slide__price-new">451 ₽/кг</span>
+                  </div>
+                </div>
+                <button class="swiper-slide__add-cart">
+                  <img src="images/icons/add-cart.svg" alt="">
+                </button>
+              </div>
+              <div class="swiper-slide">
+                <span class="swiper-slide__favourites">
+                  <img src="images/icons/favourites.svg" alt="">
+                </span>
+                <div class="swiper-slide__imgbox">
+                  <div class="swiper swiperslide">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-2.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/content/special/item-2.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide__content">
+                  <div class="swiper-slide__title">
+                    Говядина Тазобедренный отруб
+                  </div>
+                  <div class="swiper-slide__weight">
+                    ~1,03 кг
+                  </div>
+                  <div class="swiper-slide__availability">
+                    В наличии
+                  </div>
+                  <div class="swiper-slide__price">
+                    <span class="swiper-slide__price-old"></span>
+                    <span class="swiper-slide__price-new">599 ₽/кг</span>
+                  </div>
+                </div>
+                <button class="swiper-slide__add-cart">
+                  <img src="images/icons/add-cart.svg" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev product-button-prev">
+            <img src="images/icons/swiper-prev.svg" alt="">
+          </div>
+          <div class="swiper-button-next product-button-next">
+            <img src="images/icons/swiper-next.svg" alt="">
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-top__inner">
+          <div class="footer-top__info">
+            <a class="footer-top__phone" href="tel:88001008515">8 800 100 85 15</a>
+            <div class="footer-top__phone-descr">
+              бесплатно по России
+            </div>
+            <ul class="footer-top__socials-list">
+              <li class="footer-top__socials-item">
+                <a class="footer-top__socials-link" href="#">
+                  <img src="images/content/socials/instagram.svg" alt="">
+                </a>
+              </li>
+              <li class="footer-top__socials-item">
+                <a class="footer-top__socials-link" href="#">
+                  <img src="images/content/socials/facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="footer-top__socials-item">
+                <a class="footer-top__socials-link" href="#">
+                  <img src="images/content/socials/vk.svg" alt="">
+                </a>
+              </li>
+              <li class="footer-top__socials-item">
+                <a class="footer-top__socials-link" href="#">
+                  <img src="images/content/socials/twitter.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__content">
+            <a class="footer-top__email" href="mailto:spk@rmpr.ru">
+              spk@rmpr.ru
+            </a>
+            <address class="footer-top__address">
+              Россия, Новосибирск,
+              ул. Дуси Ковальчук, 1
+            </address>
+            <div class="footer-top__delivery">
+              Доставка с 10:00 до 22:00
+            </div>
+          </div>
+          <div class="footer-top__item">
+            <ul class="footer-top__item-list">
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Каталог</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Акции</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Эксклюзивные продукты</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Подарочные наборы</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">О компании</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__item">
+            <ul class="footer-top__item-list">
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Доставка и оплата</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Как сделать заказ</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Отслеживание заказа</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Служба качества</a>
+              </li>
+              <li class="footer-top__item-item">
+                <a class="footer-top__item-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__feedback">
+            <div class="footer-top__feedback-text">
+              Если у вас есть вопросы, пожелания, комментарии –
+              вы можете отправить нам сообщение
+            </div>
+            <button class="footer-top__feedback-btn">
+              <span>
+                Обратная связь
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom__inner">
+          <div class="footer-bottom__box">
+            <div class="footer-bottom__copy">
+              © ООО «Сибирская продовольственная
+              компания», 1994 – 2021
+            </div>
+            <a class="footer-bottom__politics" href="#">
+              Политика конфиденциальности
+            </a>
+          </div>
+          <div class="footer-bottom__development">
+            <span>
+              Разработка сайта –
+            </span>
+            <a class="footer-bottom__development-link" href="#">
+              Евростудио
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js" integrity="sha512-wdUM0BxMyMC/Yem1RWDiIiXA6ssXMoxypihVEwxDc+ftznGeRu4s9Fmxl8PthpxOh5CQ0eqjqw1Q8ScgNA1moQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
